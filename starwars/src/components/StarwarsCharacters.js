@@ -20,7 +20,7 @@ function StarWarsCharacters() {
   }, [])
 
   return (
-    <div>
+    <div className="flex-container">
       {character.map((character) => {
         return <StarWarsCard person={character}/>
       })}

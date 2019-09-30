@@ -18,7 +18,7 @@ function Planet(props) {
   }, [])
 
   return (
-  <h3>Home Planet:{homeworld}</h3>
+  <p>Home Planet:{homeworld}</p>
   )
 }
 
